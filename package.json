@@ -2,13 +2,13 @@
   "name": "shopzone",
   "version": "1.0.0",
   "description": "",
-  "main": "api/app.ts",
+  "main": "api/dist/app.js",
   "scripts": {
     "build": "tsc",
     "test": "jest -i --verbose",
     "prestart": "npm run build",
     "start": "node .",
-    "dev": "nodemon -L --watch \"./api/**\" ./api/app.ts"
+    "dev": "nodemon -L --watch \"./api/**\" --ignore \"./api/dist\" ./api/app.ts"
   },
   "keywords": [
     "typescript",
