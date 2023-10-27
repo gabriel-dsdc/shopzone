@@ -1,3 +1,4 @@
 {
+  "functions": { "api/controllers/**": {} },
   "rewrites": [{ "source": "/(.*)", "destination": "/api/app.ts" }]
 }
