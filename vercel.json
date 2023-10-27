@@ -1,4 +1,3 @@
 {
-  "functions": { "api/app.ts": { "includeFiles": "api/**" } },
   "rewrites": [{ "source": "/(.*)", "destination": "/api/app.ts" }]
 }
