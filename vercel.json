@@ -1,4 +1,4 @@
 {
-  "functions": { "api/dist/app.js": { "includeFiles": "api/dist/**" } },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/dist/app.js" }]
+  "functions": { "api/app.ts": { "includeFiles": "api/**" } },
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/app.ts" }]
 }
