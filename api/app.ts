@@ -69,15 +69,14 @@ class App {
   private checkEnvs() {
     const requiredEnvs = [
       "MONGODB_URI",
-      "APP_URL",
       "JWT_SECRET",
-      "ACCESS_TOKEN",
-      "CLIENT_ID",
-      "CLIENT_SECRET",
-      "REFRESH_TOKEN",
-      "ALBUM_HASH",
-      "STRIPE_SECRET_KEY",
-      "endpointSecret",
+      // "CLIENT_ID",
+      // "CLIENT_SECRET",
+      // "REFRESH_TOKEN",
+      // "ALBUM_HASH",
+      // "APP_URL",
+      // "STRIPE_SECRET_KEY",
+      // "endpointSecret",
     ];
     const missingEnvs = requiredEnvs.filter(
       (env) => !Object.prototype.hasOwnProperty.call(process.env, env)
